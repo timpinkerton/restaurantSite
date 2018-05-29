@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(200, 201, 255); 
+}
+
+#title {
+  margin-top: 20px;
+  height: 80px;
+
+}
+
+#title, #footer {
+  background-color: rgb(245, 221, 198); 
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 15px;
+}
+
+.image {
+  background-color: rgb(245, 221, 198); 
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 20px;  
+  text-align: center; 
+
+}
+
+.image img {
+  width: 400px; 
+  height: 150px;
+}
+
+#navigation {
+  text-align: center; 
+}
+
+a:visited {
+  color: rgb(12, 7, 41); 
+}
+
+a:hover {
+  font-weight: bold; 
+}
+
+a:active {
+  text-decoration: none; 
+}
+
+.jumbotron {
+  background-image: url(images/eggCitySklyine.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 300px;
+
+  padding-top: .5em; 
+  padding-left: .5em; 
+}
+
+#description {
+  background-color: rgb(245, 221, 198); 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em; 
+  margin-bottom: 20px; 
+}
+
+#carouselExampleFade {
+  margin-left: auto;
+  margin-right: auto;
+}

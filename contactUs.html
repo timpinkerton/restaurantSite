@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Egg City</title>
+    
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <style>
+      label {
+        font-family: monospace; 
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="title">
+      <h1>Egg City</h1>
+    </div>
+
+    <div id="navigation">
+      <hr />
+      <p>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contactUs.html">Contact Us</a>
+      </p>
+      <hr />
+    </div>
+
+    <div id="main">
+      
+    <form action="submit.html" method="post">
+      <label for="name"  style="font-weight: bold">Name:</label>
+      <input type="text" id="name" name="name" required><br />
+      
+      <label for="email"  style="font-weight: bold">Email:</label>
+      <input type="text" id="email" name="email" required><br />
+      
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone"><br />
+      
+      <label for="reason">Reason for Inquiry:</label>
+      <select id="reason" name="reason">
+        <option value="default" selected>Catering</option>
+        <option value="privateParty">Private Party</option>
+        <option value="feedback">Feedback</option>
+        <option value="Other">Other</option>
+      </select><br />
+      
+      <label for="additionalInfo">Additional Information:</label>
+      <textarea id="info"></textarea><br />
+      
+<!--      Should this be with fieldset and legend tags?-->
+       <label>Have you been to the restaurant?</label>
+         <input type="radio" id="choice1" name="repeatCustomer" value="no">
+           <label for="choice1">No</label>
+         <input type="radio" id="choice2" name="repeatCustomer" value="Yes">
+           <label for="choice2">Yes</label><br />
+           
+      <label for="contactDay">Best Days to contact you:</label>    
+       <input type="checkbox" id="m" name="day" value="m">
+         <label for="m">M</label>
+       <input type="checkbox" id="t" name="day" value="t">
+         <label for="t">T</label>
+       <input type="checkbox" id="w" name="day" value="w">
+         <label for="w">W</label>
+       <input type="checkbox" id="th" name="day" value="th">
+         <label for="th">Th</label>
+       <input type="checkbox" id="f" name="day" value="f">
+         <label for="f">F</label><br />
+         
+      <input type="submit" name="submit" value="Send Request">
+    </form>
+
+    </div>
+
+    <div>
+      <hr />
+      <footer id="footer">
+        <p>843 East Market Street - Louisville - Kentucky - 40202</p>
+        <p>314-378-0457</p>
+      </footer>
+
+    </div>
+  </body>
+</html>
