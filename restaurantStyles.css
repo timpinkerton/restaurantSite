@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(200, 201, 255); 
+  background-color: rgb(115, 163, 252); 
 }
 
 #title {
@@ -9,14 +9,14 @@ body {
 }
 
 #title, #footer {
-  background-color: rgb(245, 221, 198); 
+  background-color: rgb(242, 248, 255); 
   text-align: center;
   font-family: 'Oswald', sans-serif;
   border-radius: 15px;
 }
 
 .image {
-  background-color: rgb(245, 221, 198); 
+  background-color: rgb(242, 248, 255);
   margin-left: auto;
   margin-right: auto; 
   margin-bottom: 20px;  
@@ -57,7 +57,7 @@ a:active {
 }
 
 #description {
-  background-color: rgb(245, 221, 198); 
+  background-color: rgb(242, 248, 255); 
   margin-left: auto;
   margin-right: auto;
   padding: 1.5em; 
