@@ -34,18 +34,21 @@
 </head>
 
 <body>
+
   <div id="noJS">
     <h1>Your web browser currently has JavaScript disabled. This site is best viewed with JavaScript enabled. Please enable JavaScript
       in your browser.
     </h1>
   </div>
+
   <div id="site">
 
-    <div class="container">
+    <div class="container wrapper">
 
       <div id="title">
         <h1>Egg City Diner</h1>
       </div>
+
       <hr />
 
       <!-- Navigation -->
@@ -72,56 +75,67 @@
       <!-- End navigation -->
 
       <hr />
-      <div id="main">
+
+      <h2>Contact Us</h2>
+
+      <div id="main" class="container-fluid">
 
         <form action="submit.html" method="post">
-          <label for="name" style="font-weight: bold">Name:</label>
-          <input type="text" id="name" name="name" required>
-          <br />
 
-          <label for="email" style="font-weight: bold">Email:</label>
-          <input type="text" id="email" name="email" required>
-          <br />
+          <div class="form-group">
+            <label for="name" style="font-weight: bold">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
 
-          <label for="phone">Phone:</label>
-          <input type="text" id="phone" name="phone">
-          <br />
+          <div class="form-group">
+            <label for="email" style="font-weight: bold">Email:</label>
+            <input type="text" id="email" name="email" required>
+          </div>
 
-          <label for="reason">Reason for Inquiry:</label>
-          <select id="reason" name="reason">
-            <option value="default" selected>Catering</option>
-            <option value="privateParty">Private Party</option>
-            <option value="feedback">Feedback</option>
-            <option value="Other">Other</option>
-          </select>
-          <br />
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone">
+          </div>
 
-          <label for="additionalInfo">Additional Information:</label>
-          <textarea id="info"></textarea>
-          <br />
+          <div class="form-group">
+            <label for="reason">Reason for Inquiry:</label>
+            <select id="reason" name="reason">
+              <option value="default" selected>Catering</option>
+              <option value="privateParty">Private Party</option>
+              <option value="feedback">Feedback</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="additionalInfo">Additional Information:</label>
+            <textarea id="info"></textarea>
+          </div>
 
           <!--      Should this be with fieldset and legend tags?-->
-          <label>Have you been to the restaurant?</label>
-          <input type="radio" id="choice1" name="repeatCustomer" value="no">
-          <label for="choice1">No</label>
-          <input type="radio" id="choice2" name="repeatCustomer" value="Yes">
-          <label for="choice2">Yes</label>
-          <br />
+          <div class="form-group">
+            <label>Have you been to the restaurant?</label>
+            <input type="radio" id="choice1" name="repeatCustomer" value="no">
+            <label for="choice1">No</label>
+            <input type="radio" id="choice2" name="repeatCustomer" value="Yes">
+            <label for="choice2">Yes</label>
+          </div>
 
-          <label for="contactDay">Best Days to contact you:</label>
-          <input type="checkbox" id="m" name="day" value="m">
-          <label for="m">M</label>
-          <input type="checkbox" id="t" name="day" value="t">
-          <label for="t">T</label>
-          <input type="checkbox" id="w" name="day" value="w">
-          <label for="w">W</label>
-          <input type="checkbox" id="th" name="day" value="th">
-          <label for="th">Th</label>
-          <input type="checkbox" id="f" name="day" value="f">
-          <label for="f">F</label>
-          <br />
+          <div class="form-group">
+            <label for="contactDay">Best Days to contact you:</label>
+            <input type="checkbox" id="m" name="day" value="m">
+            <label for="m">M</label>
+            <input type="checkbox" id="t" name="day" value="t">
+            <label for="t">T</label>
+            <input type="checkbox" id="w" name="day" value="w">
+            <label for="w">W</label>
+            <input type="checkbox" id="th" name="day" value="th">
+            <label for="th">Th</label>
+            <input type="checkbox" id="f" name="day" value="f">
+            <label for="f">F</label>
+          </div>
 
-          <input type="submit" name="submit" value="Send Request">
+          <button class="btn" type="submit" name="submit" value="Send Request">Submit</button>
         </form>
 
       </div>

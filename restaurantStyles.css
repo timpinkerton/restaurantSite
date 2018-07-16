@@ -1,70 +1,96 @@
 body {
-  background-color: rgb(115, 163, 252); 
+  background-color: rgb(115, 163, 252);
 }
 
-#title {
-  margin-top: 20px;
-  height: 80px;
-
-}
-
-#title, #footer {
-  background-color: rgb(242, 248, 255); 
+#title,
+#footer {
+  background-color: rgb(242, 248, 255);
   text-align: center;
   font-family: 'Oswald', sans-serif;
   border-radius: 15px;
 }
 
+#title {
+  /* padding-top: 90px; */
+  height: 60px;
+}
+
 .image {
   background-color: rgb(242, 248, 255);
   margin-left: auto;
-  margin-right: auto; 
-  margin-bottom: 20px;  
-  text-align: center; 
-
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .image img {
-  width: 400px; 
+  width: 400px;
   height: 150px;
 }
 
+.wrapper {
+  max-width: 690px;
+  background-color: lightskyblue ; 
+  padding-top: 25px; 
+  padding-bottom: 25px; 
+}
+
 #navigation {
-  text-align: center; 
+  text-align: center;
 }
 
 a:visited {
-  color: rgb(12, 7, 41); 
+  color: rgb(12, 7, 41);
 }
 
 a:hover {
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 a:active {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .jumbotron {
   background-image: url(images/eggCitySklyine.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; 
-  height: 300px;
-
-  padding-top: .5em; 
-  padding-left: .5em; 
+  background-position: center;
+  height: 400px;
+  padding-top: .5em;
+  padding-left: .5em;
 }
 
 #description {
-  background-color: rgb(242, 248, 255); 
+  background-color: rgb(242, 248, 255);
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5em; 
-  margin-bottom: 20px; 
+  padding: 1.5em;
+  margin-bottom: 20px;
 }
 
 #carouselExampleFade {
   margin-left: auto;
   margin-right: auto;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.menuContainer {
+  justify-content: center;
+  max-width: 800px;
+}
+
+.menuItem {
+  text-align: center;
+  margin: 10px;
+  max-width: 200px;
+}
+
+.menuItemName {
+  font-weight: bold;
+  font-size: 1.2em;
 }
