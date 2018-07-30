@@ -1,5 +1,6 @@
 body {
   background-color: rgb(115, 163, 252);
+  background-image: url(images/friedEgg2.png);
 }
 
 #title,
@@ -30,7 +31,7 @@ body {
 
 .wrapper {
   max-width: 690px;
-  background-color: lightskyblue ; 
+  background-color: rgb(217, 221, 221); 
   padding-top: 25px; 
   padding-bottom: 25px; 
 }
@@ -40,7 +41,7 @@ body {
 }
 
 a:visited {
-  color: rgb(12, 7, 41);
+  color: rgb(46, 43, 177);
 }
 
 a:hover {
@@ -93,4 +94,8 @@ h2 {
 .menuItemName {
   font-weight: bold;
   font-size: 1.2em;
+}
+
+form {
+  text-align: center; 
 }
