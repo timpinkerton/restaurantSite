@@ -1,6 +1,6 @@
 body {
   background-color: rgb(115, 163, 252);
-  background-image: url(images/friedEgg3.png);
+  background-image: url(images/background.png);
 }
 
 #title,
@@ -13,20 +13,22 @@ body {
 
 #title {
   /* padding-top: 90px; */
-  height: 60px;
+  height: 90px;
 }
 
 .image {
-  background-color: rgb(242, 248, 255);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
   text-align: center;
 }
 
 .image img {
   width: 400px;
   height: 150px;
+}
+
+.imagePopup img {
+  width: 100%; 
+  max-width: 400px;
+  margin: 0px auto; 
 }
 
 .wrapper {
@@ -80,6 +82,11 @@ h2 {
   margin: 20px 0px;
 }
 
+
+/***************************** 
+        MENU PAGE 
+******************************/
+
 .menuContainer {
   justify-content: center;
   max-width: 800px;
@@ -95,6 +102,11 @@ h2 {
   font-weight: bold;
   font-size: 1.2em;
 }
+
+
+/***************************** 
+        CONTACT PAGE 
+******************************/
 
 form {
   text-align: center; 
