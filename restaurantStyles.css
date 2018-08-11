@@ -106,7 +106,7 @@ a:active {
 .menuContainer {
   justify-content: center;
   max-width: 800px;
-  border: 2px solid red; 
+  /* border: 2px solid red;  */
 }
 
 .menuItem {
