@@ -3,11 +3,16 @@ body {
   background-image: url(images/background.png);
 }
 
+h2 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
 #title,
 #footer {
   background-color: rgb(242, 248, 255);
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Dosis', sans-serif;
   border-radius: 15px;
 }
 
@@ -23,6 +28,13 @@ body {
 .image img {
   width: 400px;
   height: 150px;
+}
+
+.welcome {
+  color: seashell; 
+  font-size: 36px;
+  font-family: 'Barlow', sans-serif;
+  text-align: center; 
 }
 
 .imagePopup img {
@@ -55,7 +67,7 @@ a:active {
 }
 
 .jumbotron {
-  background-image: url(images/eggCitySkyline5.png);
+  background-image: url(images/eggCitySkyline6.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -72,24 +84,29 @@ a:active {
   margin-bottom: 20px;
 }
 
+.schematic {
+  text-align: center; 
+}
+
 #carouselExampleFade {
   margin-left: auto;
   margin-right: auto;
 }
 
-h2 {
-  text-align: center;
-  margin: 20px 0px;
-}
+
 
 
 /***************************** 
         MENU PAGE 
 ******************************/
 
+.menu {
+  justify-content: center; 
+}
 .menuContainer {
   justify-content: center;
   max-width: 800px;
+  border: 2px solid red; 
 }
 
 .menuItem {
