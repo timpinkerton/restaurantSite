@@ -21,24 +21,23 @@ h2 {
 }
 
 .welcome {
-  color: seashell; 
+  color: seashell;
   font-size: 36px;
   font-family: 'Barlow', sans-serif;
-  text-align: center; 
+  text-align: center;
 }
 
 .imagePopup img {
-  width: 100%; 
+  width: 100%;
   max-width: 400px;
-  margin: 0px auto; 
+  margin: 0px auto;
 }
 
 .wrapper {
   max-width: 890px;
-  /* background-color: rgb(217, 221, 221);  */
   background-color: rgb(229, 231, 231);
-  padding-top: 25px; 
-  padding-bottom: 25px; 
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #navigation {
@@ -70,7 +69,7 @@ a:active {
 .descriptionContainer {
   justify-content: center;
   max-width: 800px;
-  margin: 0px auto; 
+  margin: 0px auto;
 }
 
 #description {
@@ -79,7 +78,6 @@ a:active {
   margin-right: auto;
   padding: 1.5em;
   margin-bottom: 20px;
-
   max-width: 470px;
 }
 
@@ -88,9 +86,8 @@ p {
 }
 
 #schematic {
-  text-align: center; 
+  text-align: center;
   padding: 1.5em;
-
   max-width: 470px;
 }
 
@@ -100,7 +97,6 @@ p {
   padding: 1.5em;
 }
 
-
 /***************************** 
         MENU PAGE 
 ******************************/
@@ -108,12 +104,16 @@ p {
 .menuContainer {
   justify-content: center;
   max-width: 800px;
-  margin: 0px auto; 
+  margin: 0px auto;
+  background-image: url(./images/burrito2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .menuItem {
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   max-width: 200px;
 }
 
@@ -122,25 +122,29 @@ p {
   font-size: 1.2em;
 }
 
+td {
+  font-family: 'Handlee';
+}
 
 /***************************** 
         CONTACT PAGE 
 ******************************/
 
 form {
-  text-align: center; 
+  background-image: url(./images/eggQuiche2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
 }
 
 @media (min-width: 700px) {
-
   #description {
     max-width: 50%;
   }
-
   #schematic {
     max-width: 50%;
-    margin-top: auto; 
-    margin-bottom: auto; 
+    margin-top: auto;
+    margin-bottom: auto;
   }
-
 }
