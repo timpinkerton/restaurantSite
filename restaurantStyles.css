@@ -17,17 +17,7 @@ h2 {
 }
 
 #title {
-  /* padding-top: 90px; */
   height: 90px;
-}
-
-.image {
-  text-align: center;
-}
-
-.image img {
-  width: 400px;
-  height: 150px;
 }
 
 .welcome {
@@ -45,7 +35,8 @@ h2 {
 
 .wrapper {
   max-width: 890px;
-  background-color: rgb(217, 221, 221); 
+  /* background-color: rgb(217, 221, 221);  */
+  background-color: rgb(229, 231, 231);
   padding-top: 25px; 
   padding-bottom: 25px; 
 }
@@ -76,21 +67,37 @@ a:active {
   padding-left: .5em;
 }
 
+.descriptionContainer {
+  justify-content: center;
+  max-width: 800px;
+  margin: 0px auto; 
+}
+
 #description {
   background-color: rgb(242, 248, 255);
   margin-left: auto;
   margin-right: auto;
   padding: 1.5em;
   margin-bottom: 20px;
+
+  max-width: 470px;
 }
 
-.schematic {
+p {
+  font-family: 'Handlee'
+}
+
+#schematic {
   text-align: center; 
+  padding: 1.5em;
+
+  max-width: 470px;
 }
 
 #carouselExampleFade {
   margin-left: auto;
   margin-right: auto;
+  padding: 1.5em;
 }
 
 
@@ -122,4 +129,18 @@ a:active {
 
 form {
   text-align: center; 
+}
+
+@media (min-width: 700px) {
+
+  #description {
+    max-width: 50%;
+  }
+
+  #schematic {
+    max-width: 50%;
+    margin-top: auto; 
+    margin-bottom: auto; 
+  }
+
 }
