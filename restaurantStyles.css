@@ -23,6 +23,30 @@ h2 {
   height: 90px;
 }
 
+#navigation {
+  text-align: center;
+}
+
+a:visited {
+  color: rgb(46, 43, 177);
+}
+
+a:hover {
+  color: darkkhaki;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Handlee'
+}
+
+/***************************** 
+        INDEX PAGE 
+******************************/
+
 .welcome {
   color: seashell;
   font-size: 36px;
@@ -41,22 +65,6 @@ h2 {
   background-color: rgb(229, 231, 231);
   padding-top: 25px;
   padding-bottom: 25px;
-}
-
-#navigation {
-  text-align: center;
-}
-
-a:visited {
-  color: rgb(46, 43, 177);
-}
-
-a:hover {
-  color: darkkhaki;
-}
-
-a:active {
-  text-decoration: none;
 }
 
 .jumbotron {
@@ -82,10 +90,6 @@ a:active {
   padding: 1.5em;
   margin-bottom: 20px;
   max-width: 470px;
-}
-
-p {
-  font-family: 'Handlee'
 }
 
 #schematic {
@@ -125,6 +129,11 @@ p {
   font-size: 1.2em;
 }
 
+.table {
+  max-width: 700px;
+  margin: 0px auto;
+}
+
 td {
   font-family: 'Handlee';
 }
@@ -147,12 +156,15 @@ form {
 ******************************/
 
 @media (min-width: 700px) {
+
   #description {
     max-width: 50%;
   }
+
   #schematic {
     max-width: 50%;
     margin-top: auto;
     margin-bottom: auto;
   }
+
 }
